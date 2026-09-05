@@ -1,0 +1,32 @@
+TaskFlow – Task Management Application
+Project Overview
+
+TaskFlow is a simple and interactive Task Management Application developed using HTML, CSS, and JavaScript. The main purpose of the project is to help users organize and manage their daily tasks in an easy and efficient way. Users can add tasks, select categories, edit existing tasks, mark tasks as completed, delete tasks, search for tasks, and filter tasks based on their completion status. The application also uses browser Local Storage so that tasks remain available even after refreshing the webpage.
+
+Features Implemented
+
+The project includes several meaningful features. Users can add new tasks with a selected category and can edit or delete existing tasks. Tasks can be marked as completed and changed back to active using the Undo option. A search feature allows users to quickly find tasks, while filter buttons display all, active, or completed tasks. Dynamic counters show the total number of tasks, active tasks, and completed tasks. Form validation prevents empty tasks from being added.
+
+Technologies Used
+
+The project was developed using HTML5, CSS3, and JavaScript. HTML was used to create the structure, CSS was used for styling and responsive design, and JavaScript was used to implement the interactive functionality.
+
+JavaScript Concepts Used
+
+The project demonstrates variables, functions, arrays, objects, conditional statements, loops, array methods such as filter() and find(), DOM manipulation, event listeners, template literals, and Local Storage. These concepts were used to dynamically create and update task elements on the webpage.
+
+Challenges Faced
+
+One challenge was managing tasks dynamically when users added, edited, completed, or deleted them. Another challenge was maintaining the tasks after refreshing the browser.
+
+Solutions Implemented
+
+Functions were created for each major operation, and an array of task objects was used to store the task information. Local Storage was implemented using JSON to save and retrieve the task data.
+
+What I Learned
+
+Through this project, I learned how JavaScript can be combined with HTML and CSS to create an interactive web application. I gained practical experience with DOM manipulation, events, arrays, objects, array methods, and browser storage.
+
+Future Improvements
+
+Future improvements could include task priorities, due dates, reminders, dark mode, drag-and-drop functionality, and user authentication.
